@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: plum;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+}
+.logo{
+    color: seagreen;
+    display: flex;
+    font-size: 25px;
+    font-weight: bolder;
+    align-items: center;
+    gap: 5px;
+}
+.logo img{
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.nav-link{
+    margin-left: 800px;
+    padding: 20px;
+
+}
+.nav-link a{
+    padding-right: 25px;
+    font-size: 22px;
+    text-decoration-line: none;
+}
+.nav-link a:hover{
+    color: seagreen;
+}
+.name{
+    border: 2px solid black;
+    height: 55px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 1px 10px 10px 1px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    align-items: center;
+}
+.main-box{
+    border: 2px solid black;
+    height: 300px;
+    width: 1250px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 3px;
+}
+.box1{
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.com{
+    border: 2px solid black;
+    height: 55px;
+    width: 130px;
+    margin-left: 1320px;
+    margin-top: 20px;
+    border-radius: 10px 1px 1px 10px;
+    background-color: pink;
+    text-align: center;
+    align-items: center;
+}
+.footer{
+    background-color: plum;
+    height: 300px;
+    width: auto;
+    align-items: center;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px 10px 1px 1px ;
+}
+.two-parts{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    height: 30px;
+    width: 80px;
+}
+.icon{
+    margin-left: 590px;
+
+}
+.icon img{
+    height:40px ;
+    width: 40px;
+    border-radius: 50%;
+
+}
